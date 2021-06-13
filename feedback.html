@@ -4,6 +4,24 @@
 <meta charset="utf-8">
 <title>Feedback</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<script>
+	function checkforblank() {
+		if (document.getElementById('name').value == "") {
+			alert('Your name is required for the Feedback form');
+			return false;
+		}
+		if (document.getElementById('email').value == "") {
+			alert('Your Email is required for the Feedback form');
+			return false;
+		}
+		if (document.getElementById('satisfaction').value == "") {
+			alert('Please do rate my first WebPage, thank you :) ');
+			return false;
+		}
+	}
+	</script>
+	
 </head>
 
 <body>
