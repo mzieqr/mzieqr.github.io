@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href="about.html"><img src="dp baru.png"></a>
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li class="active3"><a href="feedback.html">FeedBack</a></li>
+			</ul>
+			
+		</div>
+		
+		<center>
+		
+		<form name="feedback" method="get" action="index.html" onsubmit="return checkforblank()">
+	<table border="2" background="images/red animate.gif">
+                <tr>
+                    <td align="center"><img src="fb star.png" alt="fb logo" width="200"></td>
+                    <td><a id="send star" href="https://www.facebook.com/mzieqr/" target="_blank"><img src="giphy.gif" alt="donate through my stream" width="150"></a></td>
+                </tr>
+                </table>
+                        Name:<br>
+                            <input class="text" type="text" id ="name" name="name"><br><br>
+
+                        Email:<br>
+                            <input class="text" type="text" id="email" name="email"><br><br>
+
+                       	Facebook Username:<br>
+                            <input class="text" type="text"  name="paypal"><br><br>
+
+                        Satisfactory:<br>
+                        <select name="satisfaction" id="satisfaction">
+                            <option value="">Choose</option>
+                            <option value="1">1 star</option>
+                            <option value="2">2 star</option>
+                            <option value="3">3 star</option>
+                            <option value="4">4 star</option>
+                            <option value="5">5 star</option>
+                        </select><br><br>
+
+
+                        Gameplay you like the most:<br>
+                            <input type="checkbox" name="Apex Legends">Apex Legends
+                            <input type="checkbox" name="Valorant">Valorant
+                            <input type="checkbox" name="Titan Fall 2">Titan Fall 2
+                            <input type="checkbox" name="Legend of Legends">League of Legends
+                            <br><br>
+
+                        How do you know me:<br>
+                            <input type="radio" name="from" value="tikTok">TikTok
+                           
+                            <input type="radio" name="from" value="twitter">Twitter
+                            <input type="radio" name="from" value="facebook">Facebook
+                            <input type="radio" name="from" value="other">Other<br><br>
+
+
+                        Comment:<br>
+                        <textarea class="text1" name="comment" rows="4" cols="55"></textarea><br><br>
+
+                        <p><input class="submit" type="submit" name="submit" value="submit"></p>
+                    </form>
+	  </center>
+	</header>
+	
+	<footer><center>Copyright &copy; Mzieqr 2021</center>
+</footer>
+</body>
+</html>
